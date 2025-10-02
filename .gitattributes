@@ -1,2 +1,5 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.PNG filter=lfs diff=lfs merge=lfs -text
+
+# Disable LFS for glyders pixel images
+glyders/glyders-pixel/** -filter -diff -merge -text
